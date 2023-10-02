@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.assistant-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 999;
+}
+
+.assistant-video {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.hover-icon {
+  position: relative;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.tooltip {
+  position: absolute;
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
